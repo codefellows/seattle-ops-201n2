@@ -1,3 +1,5 @@
 #!bin/bash
 
-echo something
+ping_output=$(ping -c 4 8.8.8.8 )
+
+echo $ping_output
